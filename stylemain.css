@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-image: url("Untitled design-2.png");
+    background-size: cover;
+}
+.Visit {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: palevioletred;
+  padding: 1rem 2rem;
+  color: white;
+}
+.Rotaract3192 {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+.topic {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+  }
+.topic li a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.2s ease;
+  }
+  .topic li a:hover {
+    color: darkred;
+  }
+  
